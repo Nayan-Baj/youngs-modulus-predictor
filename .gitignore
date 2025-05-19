@@ -1,0 +1,22 @@
+.env
+.csv
+.pkl
+# Ignore Anaconda virtual environments
+env/
+venv/
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log and temp files
+*.log
+*.tmp
+
+# Ignore IDE project settings
+.idea/
+.vscode/
