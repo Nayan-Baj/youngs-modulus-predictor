@@ -1,22 +1,24 @@
+#Environment variable for API Key
 .env
-.csv
-.pkl
-# Ignore Anaconda virtual environments
+#Any CSV or PKL files
+*.csv
+*.pkl
+#Anaconda virtual environments
 env/
 venv/
 .venv/
 
-# Ignore Python cache files
+#Python cache files
 __pycache__/
 *.pyc
 
-# Ignore Jupyter Notebook checkpoints
+#Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore log and temp files
+#Log and temp files
 *.log
 *.tmp
 
-# Ignore IDE project settings
+#IDE project settings
 .idea/
 .vscode/
