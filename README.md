@@ -1,11 +1,13 @@
 Young's Modulus Predictor (Material Informatics)
 
 
+
 Project Overview:
 
 Random Forest machine learning model that predicts the Young's Modulus of a theoretical isotropic material based on calculatable factors
 
 Can help scientists and engineers screen theoretical materials for structural applications without using DFT, which is extremely computationally intensive
+
 
 
 Data:
@@ -19,11 +21,13 @@ Uses pymatgen to calculate the avg mass, electronegativity, and atomic radius of
 Cleans the dataset by eliminating any unstable or outlier materials
 
 
+
 Model:
 
 Used random forest regressor to predict the Young's Modulus 
 
 Used brute force feature engineering to find the most accurate combination of feature selection
+
 
 
 GUI:
